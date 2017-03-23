@@ -58,7 +58,7 @@
                         <EditText
                             android:id="@+id/bmiHeight"
                             android:layout_weight="1"
-                            android:layout_width="280dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#50ff0000"
                             android:hint="키를 입력하세요."
@@ -76,7 +76,7 @@
                         <EditText
                             android:id="@+id/bmiWeight"
                             android:layout_weight="1"
-                            android:layout_width="280dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#50ff0000"
                             android:hint="체중을 입력하세요."
@@ -130,7 +130,7 @@
 
                         <EditText
                             android:id="@+id/sizeEditText"
-                            android:layout_width="280dp"
+                            android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:background="#50ff0000"
                             android:hint="평이나 면적을 입력"

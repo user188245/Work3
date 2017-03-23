@@ -27,6 +27,7 @@ public class MainActivity2 extends AppCompatActivity {
     }
 
     private void init(){
+        setTitle("각종 계산기");
         tabHost = (TabHost)findViewById(R.id.tabHost);
         tabHost.setup();
         tabHost.addTab(tabHost.newTabSpec("1").setContent(R.id.tab1).setIndicator("BMI 측정기"));
@@ -57,7 +58,7 @@ public class MainActivity2 extends AppCompatActivity {
                 if(sizeEditText.getText().toString().isEmpty())
                     Toast.makeText(getApplicationContext(),"빈 곳에 값을 입력하세요.",Toast.LENGTH_SHORT).show();
                 else
-                        if(v.getId() == R.id.sizePtoS)
+                    if(v.getId() == R.id.sizePtoS)
                         sizeResult.setText(Float.parseFloat(sizeEditText.getText().toString()) * 3.305f +"제곱미터");
                     else
                         sizeResult.setText(Float.parseFloat(sizeEditText.getText().toString()) * 0.3025f +"평");
