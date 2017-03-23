@@ -12,13 +12,13 @@
         android:id="@+id/content1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="실습1"
         android:onClick="onClick"/>
 
     <Button
         android:id="@+id/content2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Button"
+        android:text="실습2"
         android:onClick="onClick"/>
 </LinearLayout>
